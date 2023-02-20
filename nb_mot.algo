@@ -1,0 +1,17 @@
+  ALGORITHM mot
+  VAR
+   nb_mot := INTEGER;
+  BEGIN
+ // Initialisation des variables
+  nb_mot = 0;
+// Vérifier si le caractère courant est un espace
+        IF (caractere est un espace) THEN
+           nb_mots = nb_mots + 1
+        END_IF 
+ 
+
+
+       
+       
+       
+  

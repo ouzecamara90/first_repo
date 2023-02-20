@@ -1,0 +1,15 @@
+ALGORITHM voyelle
+VAR
+    nb_voyelles :=INTEGER;
+BEGIN
+    set_instructions
+END
+ // Vérifier si le caractère courant est une voyelle
+        IF (caractere est une voyelle) THEN
+            nb_voyelles = nb_voyelles + 1
+        END_IF 
+           
+// nombre de mot dans la phrase
+    WHILE (le caractère courant n'est pas un point) DO
+       caractere = lire_caractere()
+    END_WHILE 

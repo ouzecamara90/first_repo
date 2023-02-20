@@ -1,0 +1,19 @@
+ALGORITHM Longueur
+VAR
+  longuer :=INTEGER;
+  nb_mots:=INTEGER;
+BEGIN
+    // Initialisation des variables
+    longueur = 0
+    nb_mots = 1 
+  // Le premier mot commence dès le début de la phrase
+    nb_voyelles = 0
+
+    // Incrémenter la longueur de la phrase
+        longueur = longueur + 1
+
+ //Affichage des résultats
+    write "Longueur de la phrase : " + longueur
+    write "Nombre de mots dans la phrase : " + nb_mots
+    write "Nombre de voyelles dans la phrase : " + nb_voyelles
+END
